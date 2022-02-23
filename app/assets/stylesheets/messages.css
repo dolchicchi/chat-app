@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+}
+
+  .side_bar {
+    background-color: #253141;
+    width: 300px;
+  }
+
+  .side_header {
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .user_name {
+    color: #FAFAFA;
+    font-size: 16px;
+  }
+
+  .room {
+    padding: 20px 0 40px 0;
+  }
+
+  .room a{
+    text-decoration: none; 
+    color: white;
+  }
+
+  .room_create a {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 10px;
+    border: 1px solid lightblue;
+    padding: 14px;
+  }
+
+  .rooms {
+    height: calc( 100vh - 100px );
+    background-color: #2F3E51;
+    padding: 0 20px;
+    overflow: scroll;
+  }
+
+  .main_chat {
+    width: calc( 100vw - 300px);
+    height: 100vh;
+  }
+
+  .main_header {
+    height: 100px;
+    padding: 0 40px;
+  }
+
+  .messages {
+    height: calc( 100vh - 190px );
+    background-color: #fafafa;
+    padding: 46px 40px 0 ;
+  }
+
+  .form {
+    height: 90px;
+    background-color: #ddd;
+    padding: 20px 40px;
+  }
